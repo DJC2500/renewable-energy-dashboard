@@ -11,19 +11,4 @@ function App() {
     </div>
   );
 }
-
-// solarDataChart
-
-// import React from 'react';
-// import SolarDataChart from './solarData';
-
-// const App = () => {
-//   return (
-//     <div>
-//       <h1>Welcome to Dadavine's Renewable Energy Dashboard</h1>
-//       <SolarDataChart />
-//     </div>
-//   );
-// };
-
  export default App;
