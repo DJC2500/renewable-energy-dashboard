@@ -6,7 +6,7 @@ const SolarData = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const apiUrl = `https://power.larc.nasa.gov/api/temporal/daily/point?start=20240203&end=20240204&latitude=9.0028899&longitude=7.4812260&community=re&parameters=ALLSKY_SFC_SW_DWN,CLRSKY_SFC_SW_DWN&format=json&user=dadavine&header=true&time-standard=utc`;
+  const apiUrl = process.env.REACT_APP_API_URL;
 
   useEffect(() => {
     const fetchSolarData = async () => {
