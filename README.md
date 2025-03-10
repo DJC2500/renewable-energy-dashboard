@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+Renewable Energy Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
 
-## Available Scripts
+The Renewable Energy Dashboard is a web application that visualizes solar energy data using NASA's POWER API. The project aims to help users understand solar energy availability by displaying real-time and historical data for specific locations.
 
-In the project directory, you can run:
+Features
 
-### `npm start`
+Fetches and displays solar energy data from NASA's POWER API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Supports All Sky and Clear Sky solar radiation parameters
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Data visualization using Chart.js (line charts)
 
-### `npm test`
+Handles missing data gracefully
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Responsive and user-friendly UI built with React
 
-### `npm run build`
+Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React.js (Frontend UI)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Axios (API requests)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Chart.js (Data visualization)
 
-### `npm run eject`
+HTML & CSS (Basic styling and layout)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+NASA POWER API (Solar energy data source)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Git & GitHub (Version control)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Installation & Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repository:
 
-## Learn More
+git clone https://github.com/DJC2500/renewable-energy-dashboard.git
+cd renewable-energy-dashboard
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
 
-### Code Splitting
+Create a .env file to store API configuration:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+REACT_APP_NASA_API_URL=https://power.larc.nasa.gov/api/temporal/daily/point
 
-### Analyzing the Bundle Size
+Run the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm start
 
-### Making a Progressive Web App
+Open http://localhost:3000/ in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Future Plans
 
-### Advanced Configuration
+Add support for wind and hydro energy data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Implement region-based filtering for renewable energy sources
 
-### Deployment
+Improve UI/UX with interactive charts and maps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Deploy the app using Netlify or Vercel
 
-### `npm run build` fails to minify
+License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available under the MIT License.
+
