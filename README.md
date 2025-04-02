@@ -1,8 +1,10 @@
 # Renewable Energy Dashboard
 
-# Overview
-
 The Renewable Energy Dashboard is a web application that visualizes solar energy data using NASA's POWER API. The project aims to help users understand solar energy availability by displaying real-time and historical data for specific locations.
+
+# Author
+
+Created by Divine Ciroma.
 
 # Features
 
