@@ -1,10 +1,10 @@
-Renewable Energy Dashboard
+# Renewable Energy Dashboard
 
-Overview
+# Overview
 
 The Renewable Energy Dashboard is a web application that visualizes solar energy data using NASA's POWER API. The project aims to help users understand solar energy availability by displaying real-time and historical data for specific locations.
 
-Features
+# Features
 
 Fetches and displays solar energy data from NASA's POWER API
 
@@ -16,7 +16,7 @@ Handles missing data gracefully
 
 Responsive and user-friendly UI built with React
 
-Technologies Used
+# Technologies Used
 
 React.js (Frontend UI)
 
@@ -30,14 +30,14 @@ NASA POWER API (Solar energy data source)
 
 Git & GitHub (Version control)
 
-Installation & Setup
+# Installation & Setup
 
 Clone the repository:
 
 git clone https://github.com/DJC2500/renewable-energy-dashboard.git
 cd renewable-energy-dashboard
 
-Install dependencies:
+# Install dependencies:
 
 npm install
 
@@ -49,9 +49,9 @@ Run the project:
 
 npm start
 
-Open http://localhost:3000/ in your browser.
+Open (http://localhost:3000/) in your browser.
 
-Future Plans
+# Future Plans
 
 Add support for wind and hydro energy data
 
@@ -61,7 +61,7 @@ Improve UI/UX with interactive charts and maps
 
 Deploy the app using Netlify or Vercel
 
-License
+# License
 
 This project is open-source and available under the MIT License.
 
